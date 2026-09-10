@@ -17,7 +17,7 @@ Right now, it'll display:
 
 <p align="center">
   <img width="400" src="https://github.com/user-attachments/assets/f4c9b564-e24e-4749-ac93-866562393cb7"></img>
-  <img width="400" src="https://dsc-readme.tsuni.dev/api/user/214167454291722241?banner=https%3A%2F%2Ftsuni.dev%2Fimages%2Fsobanner.png&theme=nitroLight&primaryColor=8080FF&accentColor=FF80C0"></img>
+  <img width="400" src="https://dsc-readme.tsuni.dev/card/user/214167454291722241?banner=https%3A%2F%2Ftsuni.dev%2Fimages%2Fsobanner.png&theme=nitroLight&primaryColor=8080FF&accentColor=FF80C0"></img>
 
 _A screenshot and actual instance of the program, side-by-side (in case I'm offline or doing something boring)_
 
@@ -61,12 +61,12 @@ You can customize your profile preview in two ways:
 
   ```md
   <p align="center">
-    <img src="https://dsc-readme.tsuni.dev/api/user/214167454291722241?width=400">
+    <img src="https://dsc-readme.tsuni.dev/card/user/214167454291722241?width=400">
   </p>
   ```
 
   <p align="center">
-    <img src="https://dsc-readme.tsuni.dev/api/user/214167454291722241?width=300">
+    <img src="https://dsc-readme.tsuni.dev/card/user/214167454291722241?width=300">
   </p>
 
 - **Layouts:** use the `layout` parameter to change the layout of the profile. The default is... well, `default`, but you can also choose from:
@@ -75,53 +75,53 @@ You can customize your profile preview in two ways:
 
 Compact
 ```md
-![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?layout=compact&width=400)
+![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?layout=compact&width=400)
 ```
-![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?layout=compact&width=400)
+![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?layout=compact&width=400)
 
 Badge
 ```md
-![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?layout=badge&width=400)
+![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?layout=badge&width=400)
 ```
-![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?layout=badge&width=400)
+![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?layout=badge&width=400)
 
 - **Change the banner:** provide an image URL after your user ID, for example:
 
 ```md
-![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?banner=https://tsuni.dev/images/sobanner.png)
+![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?banner=https://tsuni.dev/images/sobanner.png)
 ```
 
-![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?banner=https://tsuni.dev/images/sobanner.png)
+![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?banner=https://tsuni.dev/images/sobanner.png)
 
 - **Add an About Me section:** use the `aboutMe` parameter, for example:
 
 ```md
-![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?aboutMe=Hello%20world!%20I'm%20a%20developer%20who%20loves%20to%20code.)
+![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?aboutMe=Hello%20world!%20I'm%20a%20developer%20who%20loves%20to%20code.)
 ```
 
 - **Hide avatar decoration:** use the `hideDecoration` parameter:
 
 ```md
-![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?hideDecoration=true&width=400)
+![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?hideDecoration=true&width=400)
 ```
 
 - **Hide Spotify activity:** use the `hideSpotify` parameter to hide Spotify listening status:
 
 ```md
-![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?hideSpotify=true&width=400)
+![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?hideSpotify=true&width=400)
 ```
 
 - **Display animated avatar/banner/decoration:** use the `animate` parameter:
   Before turning this on, please read the note in the [A note on animated avatars, banners, and decorations](#a-note-on-animated-avatars-banners-and-decorations) section. It might not do what you think it does!
 
 ```md
-![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?animate=true&width=400)
+![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?animate=true&width=400)
 ```
 
 - **Set the width:** use the `width` parameter to set the width of the image. The default is 512px, but you can set it to any value you like. This affects the resolution of embedded images, so thinner previews will be faster to load, and vice versa.
 
 ```md
-![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?width=400)
+![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?width=400)
 ```
 
 - **Theme Customizations**
@@ -130,7 +130,7 @@ Badge
     - Use the parameters `primaryColor` and `accentColor` with hex values provided **without** a `#`.  
       Example:
       ```md
-      ![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?theme=nitroDark&primaryColor=5865F2&accentColor=99AAB5&width=400)
+      ![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?theme=nitroDark&primaryColor=5865F2&accentColor=99AAB5&width=400)
       ```
   - **Custom theme presets**:
     - `catppuccinMocha`
@@ -146,7 +146,7 @@ Badge
     - Use the parameters `colorB1`, `colorB2`, `colorB3`, `colorT1`, and `colorT2` with hex values provided **without** a `#`.  
       Example:
       ```md
-      ![](https://dsc-readme.tsuni.dev/api/user/214167454291722241?theme=custom&colorB1=111214&colorB2=313338&colorB3=505059&colorT1=FFFFFF&colorT2=D2D6D8)
+      ![](https://dsc-readme.tsuni.dev/card/user/214167454291722241?theme=custom&colorB1=111214&colorB2=313338&colorB3=505059&colorT1=FFFFFF&colorT2=D2D6D8)
       ```
 
 ## A note on animated avatars, banners, and decorations:
@@ -155,7 +155,7 @@ Animated avatars, banners, and decorations **will not animate on GitHub**, most 
 
 ```html
 <object
-  data="https://dsc-readme.tsuni.dev/api/user/214167454291722241?banner=https%3A%2F%2Ftsuni.dev%2Fimages%2Fsobanner.png&amp;theme=nitroLight&amp;primaryColor=8080FF&amp;accentColor=FF80C0"
+  data="https://dsc-readme.tsuni.dev/card/user/214167454291722241?banner=https%3A%2F%2Ftsuni.dev%2Fimages%2Fsobanner.png&amp;theme=nitroLight&amp;primaryColor=8080FF&amp;accentColor=FF80C0"
   class="mx-auto my-2 max-w-full"
   width="500"
 >
@@ -167,12 +167,12 @@ Obviously, this will only work on platforms where you can write HTML, like your 
 
 ## API
 
-The app features a few API endpoints beyond the main `/api/user/:id` endpoint that generates the SVG.
+The app features a few API endpoints beyond the main `/card/user/:id` endpoint that generates the SVG.
 
-- `/api/user/:id`: You can, as you'd expect, generate an SVG programmatically. For all the possible options, read the above [customization options](#customizations).
-- `/api/lookup/:username`: You can lookup a user ID by their username (either platform username, display name, or guild nickname). This is used in the web UI.
-- `/api/username/:id`: Conversely, you can get a username by their user ID. This is also used in the web UI to populate the alt text of the profile picture.
-- `/api/lanyard/:id`: This endpoint mimics the [Lanyard](https://github.com/Phineas/lanyard) API response format, without the bells and whistles (socket mode, KV store, etc). There isn't any real reason to use this over the actual Lanyard API... but hey, it's there if you want it!
+- `/card/user/:id`: You can, as you'd expect, generate an SVG programmatically. For all the possible options, read the above [customization options](#customizations).
+- `/card/lookup/:username`: You can lookup a user ID by their username (either platform username, display name, or guild nickname). This is used in the web UI.
+- `/card/username/:id`: Conversely, you can get a username by their user ID. This is also used in the web UI to populate the alt text of the profile picture.
+- `/card/lanyard/:id`: This endpoint mimics the [Lanyard](https://github.com/Phineas/lanyard) API response format, without the bells and whistles (socket mode, KV store, etc). There isn't any real reason to use this over the actual Lanyard API... but hey, it's there if you want it!
 
 ## Self-Hosting
 

@@ -122,7 +122,7 @@ export function buildPreviewUrl(state: PreviewState, layout: Layout = 'standard'
     params.append('layout', layout);
   }
 
-  const base = `/api/user/${state.userId}`;
+  const base = `/card/user/${state.userId}`;
   const queryString = params.toString();
   return queryString ? `${base}?${queryString}` : base;
 }

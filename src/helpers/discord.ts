@@ -82,7 +82,7 @@ export async function fetchUserInfo(client: Client<true>, userID: string, animat
 }
 
 export async function fetchAppIconURL(appID: string) {
-  const appRPC = await fetch(`https://discord.com/api/v10/applications/${appID}/rpc`).then((res) => {
+  const appRPC = await fetch(`https://discord.com/card/v10/applications/${appID}/rpc`).then((res) => {
     if (!res.ok) {
       return null;
     }

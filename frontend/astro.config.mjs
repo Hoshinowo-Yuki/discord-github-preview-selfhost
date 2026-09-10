@@ -17,7 +17,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
     server: {
-      // During `astro dev`, proxy /api/* to the Express server on :3000 so the
+      // During `astro dev`, proxy /card/* to the Express server on :3000 so the
       // form can hit the real Discord bot endpoints without CORS gymnastics.
       proxy: {
         '/api': 'http://localhost:3000',
